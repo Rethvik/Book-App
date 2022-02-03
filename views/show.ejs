@@ -30,7 +30,7 @@
         <li class="list-group-item">User Name: <strong><%=user.Name%></strong></li>
         <li class="list-group-item">Earnings: <strong><%=user.TotalEarnings%></strong></li>
         <% if(user.ReferedUser === null) {%>
-        <li class="list-group-item">Refered User: <strong>---</strong></li>
+        <li class="list-group-item">Refered User: <strong>null</strong></li>
         <%}else{ %>
         <li class="list-group-item">Refered User: <strong><%=user.ReferedUser%></strong></li>
         <% } %> <%if (user.isPaymentMade){%>
